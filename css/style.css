@@ -398,6 +398,12 @@ header > .container {
   margin-right: 10px;
 }
 
+a.social-link:hover,
+a.social-link:focus {
+  background-color: var(--accent-color);
+  color: var(--hero-title-color);
+}
+
 /* === footer === */
 .footer {
   padding-top: 60px;
