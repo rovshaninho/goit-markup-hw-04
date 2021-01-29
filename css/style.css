@@ -449,6 +449,20 @@ a.clients-link:focus {
 }
 
 /* === footer === */
+.footer .container {
+  display: flex;
+  align-items: baseline;
+}
+
+.address-container {
+  margin-right: 70px;
+  width: 231px;
+}
+
+.footer .logo {
+  margin-bottom: 20px;
+}
+
 .footer {
   padding-top: 60px;
   padding-bottom: 60px;
@@ -458,10 +472,6 @@ a.clients-link:focus {
 .footer-address-list .footer .logo {
   display: inline-block;
   padding: 0;
-}
-
-.footer .logo {
-  margin-bottom: 20px;
 }
 
 .footer > .container {
@@ -490,6 +500,9 @@ a.clients-link:focus {
   margin-bottom: 9px;
 }
 
+.footer .social-link {
+  background-color: var(--footer-icon-bg);
+}
 /* === removes margin top from address === */
 p {
   margin-top: 0;
@@ -500,6 +513,24 @@ p {
   display: inline-block;
 }
 
+.footer-icon-container {
+  width: 206px;
+}
+
+.join-text {
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--hero-title-color);
+}
+
+.footer .social-list {
+  color: var(--hero-title-color);
+}
 /* === portfolio.html === */
 .work {
   padding-top: 94px;
