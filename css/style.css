@@ -227,6 +227,11 @@ header > .container {
   color: var(--hero-title-color);
 }
 
+.hero-button:hover,
+.hero-button:focus {
+  background-color: #188ce8;
+}
+
 /* === hidden title - main page === */
 .hidden-title {
   position: absolute;
